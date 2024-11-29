@@ -17,7 +17,7 @@ You can see a running demo of the project on [this site](https://mitfart.itch.i
 
 ## Authors
 Game Development
-*   **Dmitriy Zarichan** - [Github](https://github.com/Mitfart)
+*   **Mitfart | Dmitriy Zarichan** - [Github](https://github.com/Mitfart)
 
 ## License
 This project is licensed under the MIT License
