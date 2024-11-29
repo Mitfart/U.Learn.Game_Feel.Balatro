@@ -758,6 +758,7 @@
     "m_OutputNode": {
         "m_Id": "ef8f89cae69c479fa3ad0d970f275e97"
     },
+    "m_SubDatas": [],
     "m_ActiveTargets": []
 }
 
@@ -1190,7 +1191,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "m_DefaultType": 0
@@ -1379,7 +1380,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "2c359b49bedd4886bf670da72b7f101d",
     "m_Id": 0,
-    "m_DisplayName": "CardTexture",
+    "m_DisplayName": "CardTex",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2027,7 +2028,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "m_DefaultType": 0
@@ -2991,10 +2992,10 @@
     "m_Guid": {
         "m_GuidSerialized": "7783794b-f4fb-445f-9ac6-71d9d233235d"
     },
-    "m_Name": "CardTexture",
+    "m_Name": "CardTex",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "CardTexture",
-    "m_DefaultReferenceName": "_CardTexture",
+    "m_RefNameGeneratedByDisplayName": "CardTex",
+    "m_DefaultReferenceName": "_CardTex",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -3005,7 +3006,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"b5dc0ac12ff3d4b61b4045e6a75c5d27\",\"type\":3}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "isMainTexture": false,
@@ -4199,8 +4200,8 @@
         "y": 0.20000000298023225
     },
     "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0
+        "x": 0.5,
+        "y": 0.5
     },
     "m_Labels": []
 }
@@ -4678,7 +4679,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "e8ecbdb5a4074735828de7471b60180a",
     "m_Id": 0,
-    "m_DisplayName": "CardTexture",
+    "m_DisplayName": "CardTex",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

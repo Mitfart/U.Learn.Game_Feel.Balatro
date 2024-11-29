@@ -3,7 +3,7 @@ using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class CardShaderController : MonoBehaviour {
-   private const string _EDITION = "_EDITION_";
+   private const string _EDITION = "_EDITION";
 
    private static readonly int _Rotation = Shader.PropertyToID("_Rotation");
 
@@ -36,7 +36,7 @@ public class CardShaderController : MonoBehaviour {
       foreach (LocalKeyword key in _material.enabledKeywords)
          _material.DisableKeyword(key);
 
-      _material.EnableKeyword(_EDITION + cardViewType);
+      _material.EnableKeyword($"{_EDITION}_{cardViewType}");
    }
 
 
@@ -46,7 +46,7 @@ public class CardShaderController : MonoBehaviour {
       _material      = new Material(image.material);
       image.material = _material;
    }
-   
+
 
    private void SetRotationToMaterial() {
       Vector3 eulerAngles = cardAnimator.view.transform.eulerAngles;
